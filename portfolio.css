@@ -1,0 +1,176 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f7f7f7;
+}
+
+.navbar {
+    background-color: #2f3e46;
+    padding: 16px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 18px;
+    font-size: 17px;
+}
+
+.navbar a:hover {
+    color: #cad2c5;
+}
+
+.hero {
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 40px 20px;
+    background: linear-gradient(135deg, #84a98c, #52796f);
+    color: white;
+}
+
+.hero-content {
+    max-width: 700px;
+}
+
+.hero h1 {
+    font-size: 46px;
+    margin-bottom: 18px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 28px;
+}
+
+.button {
+    display: inline-block;
+    background-color: white;
+    color: #354f52;
+    padding: 12px 22px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.button:hover {
+    background-color: #e9efea;
+}
+
+.section {
+    max-width: 1000px;
+    margin: auto;
+    padding: 70px 25px;
+    text-align: center;
+}
+
+.section h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #354f52;
+}
+
+.section p {
+    max-width: 760px;
+    margin: 0 auto;
+    font-size: 18px;
+}
+
+.projects-section {
+    background-color: white;
+    max-width: none;
+}
+
+.project-grid {
+    max-width: 1000px;
+    margin: 35px auto;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.project-card {
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 25px;
+    width: 290px;
+    transition: transform 0.2s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+}
+
+.project-card h3 {
+    color: #52796f;
+    margin-bottom: 12px;
+}
+
+.project-card p {
+    font-size: 16px;
+}
+
+.github-text a {
+    color: #52796f;
+    font-weight: bold;
+}
+
+.contact-section {
+    max-width: 700px;
+}
+
+.contact-form {
+    margin-top: 30px;
+    text-align: left;
+}
+
+.contact-form label {
+    display: block;
+    margin: 12px 0 6px;
+    font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #bbb;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.contact-form button {
+    margin-top: 16px;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    background-color: #52796f;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #354f52;
+}
+
+footer {
+    background-color: #2f3e46;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
